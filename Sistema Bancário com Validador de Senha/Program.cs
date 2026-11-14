@@ -90,7 +90,7 @@ class Program
         // Loop do Menu Principal do Banco
         while (true) // O código volta diretamente para cá quando termina a operação em uma das opções
         {
-            int escolha = ValidarEscolha(); // Puxa o subprograma que valida o número digitado no menu
+            int escolha = ValidarEscolha(); // Puxa o subprograma que valida o número digitado no menu 
 
             if (escolha == 4) // Se escolher 4, encerra o programa por este IF
             {
